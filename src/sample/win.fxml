@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="button" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SimpleController">
+   <children>
+      <Label layoutX="53.0" layoutY="14.0" text="You win!">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="Button" arcHeight="5.0" arcWidth="5.0" fill="#1b8a03" height="36.0" layoutX="25.0" layoutY="88.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+      <Label fx:id="Text" layoutX="80.0" layoutY="94.0" text="Menu">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
